@@ -1,0 +1,190 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin-left: -44px;
+    margin-top: 1.5%;
+    width: 30px;
+    height: 40px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    max-width: 900px;
+     
+    
+
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.nav_menu_item{
+
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 20px;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 8vh;
+    width: 200vh;
+    padding: 0 2px;
+}
+
+.search-form {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    background-color:red;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .search-form {
+        max-width: 100%; /* El formulario ocupará el ancho completo */
+    }
+
+    .search-input,
+    .search-button {
+        padding: 10px; /* Reducir el padding para mejor visualización en pantallas pequeñas */
+    }
+}
+
+a.inicio{
+    display: block;
+    width: 60px;
+    height: 20px;
+    font-weight: 200;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 1px;
+    
+
+}
+
+
+.campana{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 0.5%;
+    
+    
+}
+
+.mensaje{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    margin-top: 0.5%;
+    
+    
+}
+
+.perfil{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    margin-top: 0.5%;
+   
+}
+
+
+main{
+    padding: 4%;
+    margin: 1em;
+   
+   
+}
+
+img{
+   max-width: 100%;
+   margin-bottom:0.5em;
+   border-radius: 10px;
+   display: block;
+
+   
+}
+
+.gallery{
+  
+   columns: 6 220px;
+   column-gap: 0.5em;
+   cursor: zoom-in;
+   border-radius: 10px;
+        
+}
+
+.gallery:hover{
+   filter: opacity(0.9);
+}
+
+/* Media Queries para hacer el diseño responsive */
+@media screen and (max-width: 600px) {
+    .campana, .mensaje, .perfil {
+        margin-right: 20px;  /* Ajusta este valor según tu preferencia */
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .campana, .mensaje, .perfil {
+        margin-right: 50px;  /* Ajusta este valor según tu preferencia */
+    }
+}
+
+
+
+
+
+
